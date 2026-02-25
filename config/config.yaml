@@ -7,3 +7,6 @@ data:
 model:
   test_size: 0.2
   razndom_state: 42
+
+models:
+  path: models/rock_vs_mine.pkl

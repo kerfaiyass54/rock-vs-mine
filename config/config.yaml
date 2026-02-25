@@ -4,3 +4,6 @@ data:
   predictions_path: data/predictions/sonar_data_predicted.csv
   features_path: data/features_engineering/sonar_data_features.csv
 
+model:
+  test_size: 0.2
+  razndom_state: 42

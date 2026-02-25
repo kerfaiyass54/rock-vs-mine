@@ -1,0 +1,6 @@
+data:
+  row_path: data/row/sonar_data.csv
+  preprocessing_path: data/preprocessing/sonar_data_preprocessed.csv
+  predictions_path: data/predictions/sonar_data_predicted.csv
+  features_path: data/features_engineering/sonar_data_featured.csv
+

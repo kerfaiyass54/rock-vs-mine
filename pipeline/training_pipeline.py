@@ -18,10 +18,10 @@ def train_model(X,Y):
     model.fit(X_train,Y_train)
     Y_pred = model.predict(X_train)
     accuracy = accuracy_score(Y_pred, Y_train)
-    print("Predictions accuracy for training: " + accuracy)   
+    print("Predictions accuracy for training: " , accuracy)   
     Y_test_ped = model.predict(X_test)
     accuracy_test = accuracy_score(Y_test_ped, Y_test)
-    print("Predictions accuracy for testing: " + accuracy_test)
+    print("Predictions accuracy for testing: " , accuracy_test)
     joblib.dump(model, models_path)
     print("Model saved successfully!")
 

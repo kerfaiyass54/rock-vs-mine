@@ -2,7 +2,7 @@ import pandas as pd
 
 
 def load_dataset(path):
-    df = df = pd.read_csv(path)
+    df = df = pd.read_csv(path, header=None)
     X = df.drop(columns=60, axis=1)
     Y = df[60]
     return X, Y

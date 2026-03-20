@@ -12,9 +12,13 @@ Ever wondered how submarines detect underwater objects? This project implements 
 
 ### **Key Features**
 ✅ **End-to-end ML pipeline** (data loading → preprocessing → feature engineering → model training → inference)
+
 ✅ **Modular design** with reusable functions for each step
+
 ✅ **Logistic Regression model** trained and saved for future predictions
+
 ✅ **Configurable** via YAML for easy adjustments
+
 ✅ **Jupyter Notebook** for interactive exploration
 
 ### **Who is this for?**
